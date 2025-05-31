@@ -37,13 +37,14 @@ composite-tool/
 ## 📌 Setup Instructions
 
 ```bash
-git clone https://github.com/elsherif10/composite-design-tool.git
+git clone https://github.com/2lsherif/composite-design-tool.git
 cd composite-design-tool
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python app.py
+```
 
 📬 Contact
 
-Created by Elsherif Emad – feel free to reach out!
+Created by [Elsherif Emad](https://www.linkedin.com/in/elsherif-abdelrahman-2a03651ba/) — feel free to reach out!
