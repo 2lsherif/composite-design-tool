@@ -25,7 +25,7 @@ A web-based tool to recommend natural fiber composites based on mechanical prope
 
 ## 📁 Project Structure
 
-composite-design-tool/
+composite-tool/
 ├── app.py
 ├── config.py
 ├── data
