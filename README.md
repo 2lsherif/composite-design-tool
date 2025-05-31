@@ -25,14 +25,28 @@ A web-based tool to recommend natural fiber composites based on mechanical prope
 
 ## 📁 Project Structure
 
-composite-tool/
+composite-design-tool/
 ├── app.py
 ├── config.py
+├── data
+│   └── materials.csv
+├── __pycache__
+│   └── config.cpython-312.pyc
+├── README.md
 ├── requirements.txt
-├── templates/
-├── static/
-├── data/
-└── README.md
+├── static
+│   └── style.css
+├── templates
+│   └── index.html
+├── tests
+│   └── __init__.py
+└── venv
+    ├── bin
+    ├── include
+    ├── lib
+    ├── lib64 -> lib
+    └── pyvenv.cfg
+
 
 ## 📌 Setup Instructions
 
