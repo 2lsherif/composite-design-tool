@@ -29,11 +29,18 @@ composite-tool/
 ├── app.py
 ├── config.py
 ├── data
-│   └── materials.csv
+│   ├── clean_fibers.csv
+│   ├── clean_resins.csv
+│   ├── raw_fibers.csv
+│   └── raw_resins.csv
+├── docs
+│   └── data_process.md
 ├── __pycache__
 │   └── config.cpython-312.pyc
 ├── README.md
 ├── requirements.txt
+├── scripts
+│   └── preprocess_data.py
 ├── static
 │   └── style.css
 ├── templates
