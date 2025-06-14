@@ -1,0 +1,11 @@
+fiber_name,tensile_strength_MPa,youngs_modulus_GPa,density_g_cm3,elongation_percent,flexural_strength_MPa,impact_strength_kJ_m2,moisture_content_percent,fiber_diameter_um,reference
+Rattan,20.43,,,,57.65,,,,"N.V. Rachchh et al, 2014"
+Banana,550,,1.35,,,,10.5,,"K. Senthil Kumar et al, 2015"
+Coconut sheath,88.6,,1.375,,,,8.79,,"K. Senthil Kumar et al, 2015"
+Coir,175,,1.2,,,,,275,"R. Siakeng et al, 2020"
+Pineapple leaf,1627,,1.07,,,,,50,"R. Siakeng et al, 2020"
+Sugar palm,421.4,10.4,,9.8,,,,,"M. D. Hazrol et al, 2020"
+Sisal,67,2.196,,6,,,,,"S. Radoor et al, 2019"
+Abaca leaf,30,,,,52,,15,,"S. Radoor et al, 2019"
+Bamboo,35.06,,0.94,,44.65,34.56,,,"Md Mahadi et al, 2023"
+Rattan Bamboo,30.82,,1.08,,57.66,44.49,,,"Md Mahadi et al, 2023"
