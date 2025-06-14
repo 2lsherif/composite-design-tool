@@ -24,10 +24,16 @@ for _, row in fiber_df.iterrows():
             moisture_content_percent, fiber_diameter_um
         ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
     """, (
-        row['fiber_name'], row['tensile_strength_MPa'], row['youngs_modulus_GPa'],
-        row['density_g_cm3'], row['elongation_percent'],
-        row['flexural_strength_MPa'], row['impact_strength_kJ_m2'],
-        row['moisture_content_percent'], row['fiber_diameter_um']
+        row['fiber_name'],
+        row['tensile_strength_MPa'],
+        row['youngs_modulus_GPa'],
+        row['density_g_cm3'],
+        row['elongation_percent'],
+        row['flexural_strength_MPa'],
+        row['impact_strength_kJ_m2'],
+        row['moisture_content_percent'],
+        row['fiber_diameter_um']
+
     ))
 
 # === Insert Resin Data ===
@@ -41,8 +47,12 @@ for _, row in resin_df.iterrows():
             density_g_cm3, viscosity_Pa_s, cost_usd_kg
         ) VALUES (%s, %s, %s, %s, %s, %s)
     """, (
-        row['resin_name'], row['glass_transition_temp_C'], row['curing_temp_C'],
-        row['density_g_cm3'], row['viscosity_Pa_s'], row['cost_usd_kg']
+        row['resin_name'],
+        row['glass_transition_temp_C'],
+        row['curing_temp_C'],
+        row['density_g_cm3'],
+        row['viscosity_Pa_s'],
+        row['cost_usd_kg']
     ))
 
 # === Finalize ===
@@ -51,4 +61,3 @@ cur.close()
 conn.close()
 
 print("✅ Data insertion complete.")
-
