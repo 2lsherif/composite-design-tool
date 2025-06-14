@@ -28,11 +28,32 @@ A web-based tool to recommend natural fiber composites based on mechanical prope
 composite-tool/
 ├── app.py
 ├── config.py
+├── data
+│   ├── clean_fibers.csv
+│   ├── clean_resins.csv
+│   ├── raw_fibers.csv
+│   └── raw_resins.csv
+├── docs
+│   └── data_process.md
+├── __pycache__
+│   └── config.cpython-312.pyc
+├── README.md
 ├── requirements.txt
-├── templates/
-├── static/
-├── data/
-└── README.md
+├── scripts
+│   └── preprocess_data.py
+├── static
+│   └── style.css
+├── templates
+│   └── index.html
+├── tests
+│   └── __init__.py
+└── venv
+    ├── bin
+    ├── include
+    ├── lib
+    ├── lib64 -> lib
+    └── pyvenv.cfg
+
 
 ## 📌 Setup Instructions
 
