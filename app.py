@@ -1,7 +1,12 @@
-from flask import Flask, jsonify, render_template, request
+from flask import (
+    Flask,
+    jsonify,
+    render_template,
+    request,
+)
 import psycopg2
 from config import Config
-from scripts.recommend import recommend_materials  # Import your recommendation function
+from scripts.recommend import recommend_materials
 
 
 app = Flask(__name__)
@@ -13,30 +18,36 @@ def get_db_connection():
         user=Config.DB_USER,
         password=Config.DB_PASSWORD,
         host=Config.DB_HOST,
-        port=Config.DB_PORT
+        port=Config.DB_PORT,
     )
 
 
 @app.route('/')
 def index():
-    return render_template('index.html', recommendations=None)  # Show form without results initially
+    return render_template(
+        'index.html',
+        recommendations=None,
+    )
 
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
-    # Get user inputs from form
-    min_strength = float(request.form.get('min_tensile_strength', 100))
+    min_strength = float(
+        request.form.get('min_tensile_strength', 100)
+    )
     max_density = float(request.form.get('max_density', 1.5))
     max_cost = float(request.form.get('max_cost', 3.0))
 
-    # Call recommendation engine
     recommendations = recommend_materials(
         min_tensile_strength=min_strength,
         max_density=max_density,
-        max_cost=max_cost
+        max_cost=max_cost,
     )
 
-    return render_template('index.html', recommendations=recommendations)
+    return render_template(
+        'index.html',
+        recommendations=recommendations,
+    )
 
 
 @app.route('/fibers')
