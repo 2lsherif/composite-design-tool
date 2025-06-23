@@ -1,0 +1,101 @@
+fiber_fiber_name,fiber_tensile_strength_MPa,fiber_youngs_modulus_GPa,fiber_density_g_cm3,fiber_elongation_percent,fiber_flexural_strength_MPa,fiber_impact_strength_kJ_m2,fiber_moisture_content_percent,fiber_fiber_diameter_um,fiber_reference,resin_resin_name,resin_glass_transition_temp_C,resin_curing_temp_C,resin_density_g_cm3,resin_viscosity_Pa_s,resin_cost_usd_kg,resin_reference,score
+Rattan,20.43,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"N.V. Rachchh et al, 2014",Cobalt + MEKP,60.0,80.0,1.2,0.35,2.0,"N.V. Rachchh et al, 2014",30.548
+Rattan,20.43,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"N.V. Rachchh et al, 2014",Polyester resin,60.0,80.0,1.2,0.35,2.0,"K. Senthil Kumar et al, 2015",30.548
+Rattan,20.43,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"N.V. Rachchh et al, 2014",PLA biopolyme,55.0,80.0,1.25,0.35,2.5,"R. Siakeng et al, 2020",28.988
+Rattan,20.43,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"N.V. Rachchh et al, 2014",Epoxy,50.0,112.0,1.15,0.4,2.8,"S. Radoor et al, 2019",27.477999999999998
+Rattan,20.43,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"N.V. Rachchh et al, 2014",Vinyl ester resin,100.0,120.0,1.05,0.25,3.2,"Md Mahadi et al, 2023",42.458
+Rattan,20.43,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"N.V. Rachchh et al, 2014",Starch based resin,60.0,120.0,1.3,0.25,3.2,"M. D. Hazrol et al, 2020",30.407999999999998
+Rattan,20.43,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"N.V. Rachchh et al, 2014",Phenolic resin,170.0,150.0,1.25,0.6,2.4,"H. A. Aisyah et al, 2021",63.49799999999999
+Rattan,20.43,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"N.V. Rachchh et al, 2014",Polypropylene (PP),-10.0,150.0,0.9,0.6,2.4,"H. A. Aisyah et al, 2021",9.568
+Rattan,20.43,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"N.V. Rachchh et al, 2014",Polyethylene (PE),-125.0,150.0,0.92,0.6,2.4,"H. A. Aisyah et al, 2021",-24.936
+Rattan,20.43,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"N.V. Rachchh et al, 2014",Poly(L-lactic acid) (PLLA),60.0,150.0,1.24,0.6,2.6,"Khan et al, 2016",30.479999999999997
+Banana,550.0,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"K. Senthil Kumar et al, 2015",Cobalt + MEKP,60.0,80.0,1.2,0.35,2.0,"N.V. Rachchh et al, 2014",348.29
+Banana,550.0,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"K. Senthil Kumar et al, 2015",Polyester resin,60.0,80.0,1.2,0.35,2.0,"K. Senthil Kumar et al, 2015",348.29
+Banana,550.0,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"K. Senthil Kumar et al, 2015",PLA biopolyme,55.0,80.0,1.25,0.35,2.5,"R. Siakeng et al, 2020",346.73
+Banana,550.0,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"K. Senthil Kumar et al, 2015",Epoxy,50.0,112.0,1.15,0.4,2.8,"S. Radoor et al, 2019",345.22
+Banana,550.0,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"K. Senthil Kumar et al, 2015",Vinyl ester resin,100.0,120.0,1.05,0.25,3.2,"Md Mahadi et al, 2023",360.2
+Banana,550.0,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"K. Senthil Kumar et al, 2015",Starch based resin,60.0,120.0,1.3,0.25,3.2,"M. D. Hazrol et al, 2020",348.15000000000003
+Banana,550.0,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"K. Senthil Kumar et al, 2015",Phenolic resin,170.0,150.0,1.25,0.6,2.4,"H. A. Aisyah et al, 2021",381.24
+Banana,550.0,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"K. Senthil Kumar et al, 2015",Polypropylene (PP),-10.0,150.0,0.9,0.6,2.4,"H. A. Aisyah et al, 2021",327.31
+Banana,550.0,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"K. Senthil Kumar et al, 2015",Polyethylene (PE),-125.0,150.0,0.92,0.6,2.4,"H. A. Aisyah et al, 2021",292.806
+Banana,550.0,10.4,1.35,9.8,57.65,34.56,10.5,275.0,"K. Senthil Kumar et al, 2015",Poly(L-lactic acid) (PLLA),60.0,150.0,1.24,0.6,2.6,"Khan et al, 2016",348.22200000000004
+Coconut sheath,88.6,10.4,1.375,9.8,57.65,34.56,8.79,275.0,"K. Senthil Kumar et al, 2015",Cobalt + MEKP,60.0,80.0,1.2,0.35,2.0,"N.V. Rachchh et al, 2014",71.445
+Coconut sheath,88.6,10.4,1.375,9.8,57.65,34.56,8.79,275.0,"K. Senthil Kumar et al, 2015",Polyester resin,60.0,80.0,1.2,0.35,2.0,"K. Senthil Kumar et al, 2015",71.445
+Coconut sheath,88.6,10.4,1.375,9.8,57.65,34.56,8.79,275.0,"K. Senthil Kumar et al, 2015",PLA biopolyme,55.0,80.0,1.25,0.35,2.5,"R. Siakeng et al, 2020",69.88499999999999
+Coconut sheath,88.6,10.4,1.375,9.8,57.65,34.56,8.79,275.0,"K. Senthil Kumar et al, 2015",Epoxy,50.0,112.0,1.15,0.4,2.8,"S. Radoor et al, 2019",68.375
+Coconut sheath,88.6,10.4,1.375,9.8,57.65,34.56,8.79,275.0,"K. Senthil Kumar et al, 2015",Vinyl ester resin,100.0,120.0,1.05,0.25,3.2,"Md Mahadi et al, 2023",83.355
+Coconut sheath,88.6,10.4,1.375,9.8,57.65,34.56,8.79,275.0,"K. Senthil Kumar et al, 2015",Starch based resin,60.0,120.0,1.3,0.25,3.2,"M. D. Hazrol et al, 2020",71.305
+Coconut sheath,88.6,10.4,1.375,9.8,57.65,34.56,8.79,275.0,"K. Senthil Kumar et al, 2015",Phenolic resin,170.0,150.0,1.25,0.6,2.4,"H. A. Aisyah et al, 2021",104.395
+Coconut sheath,88.6,10.4,1.375,9.8,57.65,34.56,8.79,275.0,"K. Senthil Kumar et al, 2015",Polypropylene (PP),-10.0,150.0,0.9,0.6,2.4,"H. A. Aisyah et al, 2021",50.464999999999996
+Coconut sheath,88.6,10.4,1.375,9.8,57.65,34.56,8.79,275.0,"K. Senthil Kumar et al, 2015",Polyethylene (PE),-125.0,150.0,0.92,0.6,2.4,"H. A. Aisyah et al, 2021",15.960999999999997
+Coconut sheath,88.6,10.4,1.375,9.8,57.65,34.56,8.79,275.0,"K. Senthil Kumar et al, 2015",Poly(L-lactic acid) (PLLA),60.0,150.0,1.24,0.6,2.6,"Khan et al, 2016",71.377
+Coir,175.0,10.4,1.2,9.8,57.65,34.56,8.79,275.0,"R. Siakeng et al, 2020",Cobalt + MEKP,60.0,80.0,1.2,0.35,2.0,"N.V. Rachchh et al, 2014",123.32
+Coir,175.0,10.4,1.2,9.8,57.65,34.56,8.79,275.0,"R. Siakeng et al, 2020",Polyester resin,60.0,80.0,1.2,0.35,2.0,"K. Senthil Kumar et al, 2015",123.32
+Coir,175.0,10.4,1.2,9.8,57.65,34.56,8.79,275.0,"R. Siakeng et al, 2020",PLA biopolyme,55.0,80.0,1.25,0.35,2.5,"R. Siakeng et al, 2020",121.76
+Coir,175.0,10.4,1.2,9.8,57.65,34.56,8.79,275.0,"R. Siakeng et al, 2020",Epoxy,50.0,112.0,1.15,0.4,2.8,"S. Radoor et al, 2019",120.25
+Coir,175.0,10.4,1.2,9.8,57.65,34.56,8.79,275.0,"R. Siakeng et al, 2020",Vinyl ester resin,100.0,120.0,1.05,0.25,3.2,"Md Mahadi et al, 2023",135.23000000000002
+Coir,175.0,10.4,1.2,9.8,57.65,34.56,8.79,275.0,"R. Siakeng et al, 2020",Starch based resin,60.0,120.0,1.3,0.25,3.2,"M. D. Hazrol et al, 2020",123.18
+Coir,175.0,10.4,1.2,9.8,57.65,34.56,8.79,275.0,"R. Siakeng et al, 2020",Phenolic resin,170.0,150.0,1.25,0.6,2.4,"H. A. Aisyah et al, 2021",156.26999999999998
+Coir,175.0,10.4,1.2,9.8,57.65,34.56,8.79,275.0,"R. Siakeng et al, 2020",Polypropylene (PP),-10.0,150.0,0.9,0.6,2.4,"H. A. Aisyah et al, 2021",102.34
+Coir,175.0,10.4,1.2,9.8,57.65,34.56,8.79,275.0,"R. Siakeng et al, 2020",Polyethylene (PE),-125.0,150.0,0.92,0.6,2.4,"H. A. Aisyah et al, 2021",67.836
+Coir,175.0,10.4,1.2,9.8,57.65,34.56,8.79,275.0,"R. Siakeng et al, 2020",Poly(L-lactic acid) (PLLA),60.0,150.0,1.24,0.6,2.6,"Khan et al, 2016",123.252
+Pineapple leaf,1627.0,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"R. Siakeng et al, 2020",Cobalt + MEKP,60.0,80.0,1.2,0.35,2.0,"N.V. Rachchh et al, 2014",994.5459999999999
+Pineapple leaf,1627.0,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"R. Siakeng et al, 2020",Polyester resin,60.0,80.0,1.2,0.35,2.0,"K. Senthil Kumar et al, 2015",994.5459999999999
+Pineapple leaf,1627.0,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"R. Siakeng et al, 2020",PLA biopolyme,55.0,80.0,1.25,0.35,2.5,"R. Siakeng et al, 2020",992.9859999999999
+Pineapple leaf,1627.0,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"R. Siakeng et al, 2020",Epoxy,50.0,112.0,1.15,0.4,2.8,"S. Radoor et al, 2019",991.476
+Pineapple leaf,1627.0,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"R. Siakeng et al, 2020",Vinyl ester resin,100.0,120.0,1.05,0.25,3.2,"Md Mahadi et al, 2023",1006.4559999999999
+Pineapple leaf,1627.0,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"R. Siakeng et al, 2020",Starch based resin,60.0,120.0,1.3,0.25,3.2,"M. D. Hazrol et al, 2020",994.4059999999998
+Pineapple leaf,1627.0,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"R. Siakeng et al, 2020",Phenolic resin,170.0,150.0,1.25,0.6,2.4,"H. A. Aisyah et al, 2021",1027.4959999999999
+Pineapple leaf,1627.0,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"R. Siakeng et al, 2020",Polypropylene (PP),-10.0,150.0,0.9,0.6,2.4,"H. A. Aisyah et al, 2021",973.5659999999999
+Pineapple leaf,1627.0,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"R. Siakeng et al, 2020",Polyethylene (PE),-125.0,150.0,0.92,0.6,2.4,"H. A. Aisyah et al, 2021",939.0619999999999
+Pineapple leaf,1627.0,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"R. Siakeng et al, 2020",Poly(L-lactic acid) (PLLA),60.0,150.0,1.24,0.6,2.6,"Khan et al, 2016",994.478
+Sugar palm,421.4,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"M. D. Hazrol et al, 2020",Cobalt + MEKP,60.0,80.0,1.2,0.35,2.0,"N.V. Rachchh et al, 2014",271.186
+Sugar palm,421.4,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"M. D. Hazrol et al, 2020",Polyester resin,60.0,80.0,1.2,0.35,2.0,"K. Senthil Kumar et al, 2015",271.186
+Sugar palm,421.4,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"M. D. Hazrol et al, 2020",PLA biopolyme,55.0,80.0,1.25,0.35,2.5,"R. Siakeng et al, 2020",269.626
+Sugar palm,421.4,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"M. D. Hazrol et al, 2020",Epoxy,50.0,112.0,1.15,0.4,2.8,"S. Radoor et al, 2019",268.116
+Sugar palm,421.4,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"M. D. Hazrol et al, 2020",Vinyl ester resin,100.0,120.0,1.05,0.25,3.2,"Md Mahadi et al, 2023",283.096
+Sugar palm,421.4,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"M. D. Hazrol et al, 2020",Starch based resin,60.0,120.0,1.3,0.25,3.2,"M. D. Hazrol et al, 2020",271.046
+Sugar palm,421.4,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"M. D. Hazrol et al, 2020",Phenolic resin,170.0,150.0,1.25,0.6,2.4,"H. A. Aisyah et al, 2021",304.13599999999997
+Sugar palm,421.4,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"M. D. Hazrol et al, 2020",Polypropylene (PP),-10.0,150.0,0.9,0.6,2.4,"H. A. Aisyah et al, 2021",250.20599999999996
+Sugar palm,421.4,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"M. D. Hazrol et al, 2020",Polyethylene (PE),-125.0,150.0,0.92,0.6,2.4,"H. A. Aisyah et al, 2021",215.70199999999997
+Sugar palm,421.4,10.4,1.07,9.8,57.65,34.56,8.79,50.0,"M. D. Hazrol et al, 2020",Poly(L-lactic acid) (PLLA),60.0,150.0,1.24,0.6,2.6,"Khan et al, 2016",271.118
+Sisal,67.0,2.196,1.07,6.0,57.65,34.56,8.79,50.0,"S. Radoor et al, 2019",Cobalt + MEKP,60.0,80.0,1.2,0.35,2.0,"N.V. Rachchh et al, 2014",58.54599999999999
+Sisal,67.0,2.196,1.07,6.0,57.65,34.56,8.79,50.0,"S. Radoor et al, 2019",Polyester resin,60.0,80.0,1.2,0.35,2.0,"K. Senthil Kumar et al, 2015",58.54599999999999
+Sisal,67.0,2.196,1.07,6.0,57.65,34.56,8.79,50.0,"S. Radoor et al, 2019",PLA biopolyme,55.0,80.0,1.25,0.35,2.5,"R. Siakeng et al, 2020",56.986
+Sisal,67.0,2.196,1.07,6.0,57.65,34.56,8.79,50.0,"S. Radoor et al, 2019",Epoxy,50.0,112.0,1.15,0.4,2.8,"S. Radoor et al, 2019",55.47599999999999
+Sisal,67.0,2.196,1.07,6.0,57.65,34.56,8.79,50.0,"S. Radoor et al, 2019",Vinyl ester resin,100.0,120.0,1.05,0.25,3.2,"Md Mahadi et al, 2023",70.45599999999999
+Sisal,67.0,2.196,1.07,6.0,57.65,34.56,8.79,50.0,"S. Radoor et al, 2019",Starch based resin,60.0,120.0,1.3,0.25,3.2,"M. D. Hazrol et al, 2020",58.406
+Sisal,67.0,2.196,1.07,6.0,57.65,34.56,8.79,50.0,"S. Radoor et al, 2019",Phenolic resin,170.0,150.0,1.25,0.6,2.4,"H. A. Aisyah et al, 2021",91.496
+Sisal,67.0,2.196,1.07,6.0,57.65,34.56,8.79,50.0,"S. Radoor et al, 2019",Polypropylene (PP),-10.0,150.0,0.9,0.6,2.4,"H. A. Aisyah et al, 2021",37.565999999999995
+Sisal,67.0,2.196,1.07,6.0,57.65,34.56,8.79,50.0,"S. Radoor et al, 2019",Polyethylene (PE),-125.0,150.0,0.92,0.6,2.4,"H. A. Aisyah et al, 2021",3.061999999999996
+Sisal,67.0,2.196,1.07,6.0,57.65,34.56,8.79,50.0,"S. Radoor et al, 2019",Poly(L-lactic acid) (PLLA),60.0,150.0,1.24,0.6,2.6,"Khan et al, 2016",58.477999999999994
+Abaca leaf,30.0,2.196,1.07,6.0,52.0,34.56,15.0,50.0,"S. Radoor et al, 2019",Cobalt + MEKP,60.0,80.0,1.2,0.35,2.0,"N.V. Rachchh et al, 2014",36.346
+Abaca leaf,30.0,2.196,1.07,6.0,52.0,34.56,15.0,50.0,"S. Radoor et al, 2019",Polyester resin,60.0,80.0,1.2,0.35,2.0,"K. Senthil Kumar et al, 2015",36.346
+Abaca leaf,30.0,2.196,1.07,6.0,52.0,34.56,15.0,50.0,"S. Radoor et al, 2019",PLA biopolyme,55.0,80.0,1.25,0.35,2.5,"R. Siakeng et al, 2020",34.786
+Abaca leaf,30.0,2.196,1.07,6.0,52.0,34.56,15.0,50.0,"S. Radoor et al, 2019",Epoxy,50.0,112.0,1.15,0.4,2.8,"S. Radoor et al, 2019",33.275999999999996
+Abaca leaf,30.0,2.196,1.07,6.0,52.0,34.56,15.0,50.0,"S. Radoor et al, 2019",Vinyl ester resin,100.0,120.0,1.05,0.25,3.2,"Md Mahadi et al, 2023",48.256
+Abaca leaf,30.0,2.196,1.07,6.0,52.0,34.56,15.0,50.0,"S. Radoor et al, 2019",Starch based resin,60.0,120.0,1.3,0.25,3.2,"M. D. Hazrol et al, 2020",36.206
+Abaca leaf,30.0,2.196,1.07,6.0,52.0,34.56,15.0,50.0,"S. Radoor et al, 2019",Phenolic resin,170.0,150.0,1.25,0.6,2.4,"H. A. Aisyah et al, 2021",69.296
+Abaca leaf,30.0,2.196,1.07,6.0,52.0,34.56,15.0,50.0,"S. Radoor et al, 2019",Polypropylene (PP),-10.0,150.0,0.9,0.6,2.4,"H. A. Aisyah et al, 2021",15.366
+Abaca leaf,30.0,2.196,1.07,6.0,52.0,34.56,15.0,50.0,"S. Radoor et al, 2019",Polyethylene (PE),-125.0,150.0,0.92,0.6,2.4,"H. A. Aisyah et al, 2021",-19.137999999999998
+Abaca leaf,30.0,2.196,1.07,6.0,52.0,34.56,15.0,50.0,"S. Radoor et al, 2019",Poly(L-lactic acid) (PLLA),60.0,150.0,1.24,0.6,2.6,"Khan et al, 2016",36.278
+Bamboo,35.06,2.196,0.94,6.0,44.65,34.56,15.0,50.0,"Md Mahadi et al, 2023",Cobalt + MEKP,60.0,80.0,1.2,0.35,2.0,"N.V. Rachchh et al, 2014",39.408
+Bamboo,35.06,2.196,0.94,6.0,44.65,34.56,15.0,50.0,"Md Mahadi et al, 2023",Polyester resin,60.0,80.0,1.2,0.35,2.0,"K. Senthil Kumar et al, 2015",39.408
+Bamboo,35.06,2.196,0.94,6.0,44.65,34.56,15.0,50.0,"Md Mahadi et al, 2023",PLA biopolyme,55.0,80.0,1.25,0.35,2.5,"R. Siakeng et al, 2020",37.848
+Bamboo,35.06,2.196,0.94,6.0,44.65,34.56,15.0,50.0,"Md Mahadi et al, 2023",Epoxy,50.0,112.0,1.15,0.4,2.8,"S. Radoor et al, 2019",36.338
+Bamboo,35.06,2.196,0.94,6.0,44.65,34.56,15.0,50.0,"Md Mahadi et al, 2023",Vinyl ester resin,100.0,120.0,1.05,0.25,3.2,"Md Mahadi et al, 2023",51.318
+Bamboo,35.06,2.196,0.94,6.0,44.65,34.56,15.0,50.0,"Md Mahadi et al, 2023",Starch based resin,60.0,120.0,1.3,0.25,3.2,"M. D. Hazrol et al, 2020",39.268
+Bamboo,35.06,2.196,0.94,6.0,44.65,34.56,15.0,50.0,"Md Mahadi et al, 2023",Phenolic resin,170.0,150.0,1.25,0.6,2.4,"H. A. Aisyah et al, 2021",72.358
+Bamboo,35.06,2.196,0.94,6.0,44.65,34.56,15.0,50.0,"Md Mahadi et al, 2023",Polypropylene (PP),-10.0,150.0,0.9,0.6,2.4,"H. A. Aisyah et al, 2021",18.428000000000004
+Bamboo,35.06,2.196,0.94,6.0,44.65,34.56,15.0,50.0,"Md Mahadi et al, 2023",Polyethylene (PE),-125.0,150.0,0.92,0.6,2.4,"H. A. Aisyah et al, 2021",-16.075999999999997
+Bamboo,35.06,2.196,0.94,6.0,44.65,34.56,15.0,50.0,"Md Mahadi et al, 2023",Poly(L-lactic acid) (PLLA),60.0,150.0,1.24,0.6,2.6,"Khan et al, 2016",39.34
+Rattan Bamboo,30.82,2.196,1.08,6.0,57.66,44.49,15.0,50.0,"Md Mahadi et al, 2023",Cobalt + MEKP,60.0,80.0,1.2,0.35,2.0,"N.V. Rachchh et al, 2014",36.836
+Rattan Bamboo,30.82,2.196,1.08,6.0,57.66,44.49,15.0,50.0,"Md Mahadi et al, 2023",Polyester resin,60.0,80.0,1.2,0.35,2.0,"K. Senthil Kumar et al, 2015",36.836
+Rattan Bamboo,30.82,2.196,1.08,6.0,57.66,44.49,15.0,50.0,"Md Mahadi et al, 2023",PLA biopolyme,55.0,80.0,1.25,0.35,2.5,"R. Siakeng et al, 2020",35.276
+Rattan Bamboo,30.82,2.196,1.08,6.0,57.66,44.49,15.0,50.0,"Md Mahadi et al, 2023",Epoxy,50.0,112.0,1.15,0.4,2.8,"S. Radoor et al, 2019",33.766000000000005
+Rattan Bamboo,30.82,2.196,1.08,6.0,57.66,44.49,15.0,50.0,"Md Mahadi et al, 2023",Vinyl ester resin,100.0,120.0,1.05,0.25,3.2,"Md Mahadi et al, 2023",48.746
+Rattan Bamboo,30.82,2.196,1.08,6.0,57.66,44.49,15.0,50.0,"Md Mahadi et al, 2023",Starch based resin,60.0,120.0,1.3,0.25,3.2,"M. D. Hazrol et al, 2020",36.696000000000005
+Rattan Bamboo,30.82,2.196,1.08,6.0,57.66,44.49,15.0,50.0,"Md Mahadi et al, 2023",Phenolic resin,170.0,150.0,1.25,0.6,2.4,"H. A. Aisyah et al, 2021",69.78600000000002
+Rattan Bamboo,30.82,2.196,1.08,6.0,57.66,44.49,15.0,50.0,"Md Mahadi et al, 2023",Polypropylene (PP),-10.0,150.0,0.9,0.6,2.4,"H. A. Aisyah et al, 2021",15.856
+Rattan Bamboo,30.82,2.196,1.08,6.0,57.66,44.49,15.0,50.0,"Md Mahadi et al, 2023",Polyethylene (PE),-125.0,150.0,0.92,0.6,2.4,"H. A. Aisyah et al, 2021",-18.647999999999996
+Rattan Bamboo,30.82,2.196,1.08,6.0,57.66,44.49,15.0,50.0,"Md Mahadi et al, 2023",Poly(L-lactic acid) (PLLA),60.0,150.0,1.24,0.6,2.6,"Khan et al, 2016",36.76800000000001
