@@ -1,8 +1,9 @@
+import os
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 import joblib
-import os
+
 
 # Load data
 df = pd.read_csv("data/composite_training_data.csv")
@@ -26,5 +27,5 @@ model.fit(X_train, y_train)
 # Save model
 os.makedirs("models", exist_ok=True)
 joblib.dump(model, "models/recommender.pkl")
-print("✅ Model saved at models/recommender.pkl")
 
+print("✅ Model saved at models/recommender.pkl")
