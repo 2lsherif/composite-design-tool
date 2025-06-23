@@ -3,6 +3,7 @@ import psycopg2
 from config import Config
 from scripts.recommend import recommend_materials  # Import your recommendation function
 
+
 app = Flask(__name__)
 
 
@@ -47,7 +48,9 @@ def get_fibers():
     columns = [desc[0] for desc in cur.description]
     cur.close()
     conn.close()
-    return jsonify([dict(zip(columns, row)) for row in rows])
+
+    data = [dict(zip(columns, row)) for row in rows]
+    return jsonify(data)
 
 
 @app.route('/resins')
@@ -59,7 +62,9 @@ def get_resins():
     columns = [desc[0] for desc in cur.description]
     cur.close()
     conn.close()
-    return jsonify([dict(zip(columns, row)) for row in rows])
+
+    data = [dict(zip(columns, row)) for row in rows]
+    return jsonify(data)
 
 
 if __name__ == '__main__':
