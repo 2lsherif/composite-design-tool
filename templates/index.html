@@ -3,59 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <title>Composite Design Tool</title>
-    <!-- Bootstrap CDN for styling -->
-    <link 
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
-        rel="stylesheet">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body class="bg-light">
     <div class="container py-5">
-        <h1 class="mb-4">Composite Material Recommendation Tool</h1>
-
-        <form action="/recommend" method="POST" class="row g-3">
-            <div class="col-md-4">
-                <label for="min_tensile_strength" class="form-label">Min Tensile Strength (MPa)</label>
-                <input type="number" step="any" class="form-control" name="min_tensile_strength" id="min_tensile_strength" placeholder="100">
+        <h1 class="mb-4">Composite Material Recommendation</h1>
+        <form action="/recommend" method="post" class="mb-4">
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="min_tensile_strength" class="form-label">
+                        Minimum Tensile Strength (MPa)
+                    </label>
+                    <input 
+                        type="number" 
+                        step="any" 
+                        name="min_tensile_strength" 
+                        id="min_tensile_strength" 
+                        class="form-control" 
+                        placeholder="e.g. 100" 
+                        min="0" 
+                        required
+                    >
+                </div>
+                <div class="col">
+                    <label for="max_density" class="form-label">
+                        Maximum Density (g/cm³)
+                    </label>
+                    <input 
+                        type="number" 
+                        step="any" 
+                        name="max_density" 
+                        id="max_density" 
+                        class="form-control" 
+                        placeholder="e.g. 1.5" 
+                        min="0.1" 
+                        max="10" 
+                        required
+                    >
+                </div>
+                <div class="col">
+                    <label for="max_cost" class="form-label">
+                        Maximum Cost (USD/kg)
+                    </label>
+                    <input 
+                        type="number" 
+                        step="any" 
+                        name="max_cost" 
+                        id="max_cost" 
+                        class="form-control" 
+                        placeholder="e.g. 3.0" 
+                        min="0" 
+                        max="100" 
+                        required
+                    >
+                </div>
             </div>
-
-            <div class="col-md-4">
-                <label for="max_density" class="form-label">Max Density (g/cm³)</label>
-                <input type="number" step="any" class="form-control" name="max_density" id="max_density" placeholder="1.5">
-            </div>
-
-            <div class="col-md-4">
-                <label for="max_cost" class="form-label">Max Cost (USD/kg)</label>
-                <input type="number" step="any" class="form-control" name="max_cost" id="max_cost" placeholder="3.0">
-            </div>
-
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Get Recommendations</button>
-            </div>
+            <button type="submit" class="btn btn-primary">Get Recommendations</button>
         </form>
 
         {% if recommendations %}
-        <hr>
-        <h3 class="mt-4">Recommended Combinations</h3>
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Fiber</th>
-                    <th>Resin</th>
-                    <th>Combo Density (g/cm³)</th>
-                    <th>Combo Strength (MPa)</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for rec in recommendations %}
-                <tr>
-                    <td>{{ rec.fiber }}</td>
-                    <td>{{ rec.resin }}</td>
-                    <td>{{ rec.combo_density }}</td>
-                    <td>{{ rec.combo_strength }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+            {% if recommendations|length > 0 %}
+                <h2>Recommendations</h2>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Fiber</th>
+                            <th>Resin</th>
+                            <th>Density (g/cm³)</th>
+                            <th>Tensile Strength (MPa)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for rec in recommendations %}
+                            <tr>
+                                <td>{{ rec.fiber }}</td>
+                                <td>{{ rec.resin }}</td>
+                                <td>{{ rec.combo_density }}</td>
+                                <td>{{ rec.combo_strength }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <div class="alert alert-warning">
+                    No matching material combinations found. Please adjust your criteria.
+                </div>
+            {% endif %}
         {% endif %}
     </div>
 </body>

@@ -1,1 +1,32 @@
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+body {
+    background-color: #f8f9fa; /* Bootstrap light gray */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    background: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    max-width: 960px;
+}
+
+input.form-control {
+    border-radius: 0.25rem;
+}
+
+table th, table td {
+    text-align: center;
+}
