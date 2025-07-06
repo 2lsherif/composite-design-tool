@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Composite Design Tool</title>
+</head>
+<body>
+    <h1>Composite Material Recommendations</h1>
+    <form method="post" action="/recommend">
+        <label>Min Tensile Strength (MPa):</label>
+        <input type="number" name="min_tensile_strength" step="0.01" value="100" required><br>
+
+        <label>Max Density (g/cm³):</label>
+        <input type="number" name="max_density" step="0.01" value="1.5" required><br>
+
+        <label>Max Cost (USD/kg):</label>
+        <input type="number" name="max_cost" step="0.01" value="3.0" required><br>
+
+        <input type="submit" value="Get Recommendations">
+    </form>
+
+    {% if recommendations %}
+    <h2>Recommendations:</h2>
+    <table border="1" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Fiber</th>
+                <th>Resin</th>
+                <th>Composite Density</th>
+                <th>Composite Strength</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for rec in recommendations %}
+            <tr>
+                <td>{{ rec.fiber }}</td>
+                <td>{{ rec.resin }}</td>
+                <td>{{ rec.combo_density }}</td>
+                <td>{{ rec.combo_strength }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+</body>
+</html>
