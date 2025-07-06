@@ -18,36 +18,34 @@ def get_db_connection():
         user=Config.DB_USER,
         password=Config.DB_PASSWORD,
         host=Config.DB_HOST,
-        port=Config.DB_PORT,
+        port=Config.DB_PORT
     )
 
 
 @app.route('/')
 def index():
-    return render_template(
-        'index.html',
-        recommendations=None,
-    )
+    return render_template('index.html', recommendations=None)
 
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
-    min_strength = float(
-        request.form.get('min_tensile_strength', 100)
-    )
-    max_density = float(request.form.get('max_density', 1.5))
-    max_cost = float(request.form.get('max_cost', 3.0))
+    def to_float(val, default):
+        try:
+            return float(val)
+        except (TypeError, ValueError):
+            return default
+
+    min_strength = to_float(request.form.get('min_tensile_strength'), 100)
+    max_density = to_float(request.form.get('max_density'), 1.5)
+    max_cost = to_float(request.form.get('max_cost'), 3.0)
 
     recommendations = recommend_materials(
         min_tensile_strength=min_strength,
         max_density=max_density,
-        max_cost=max_cost,
+        max_cost=max_cost
     )
 
-    return render_template(
-        'index.html',
-        recommendations=recommendations,
-    )
+    return render_template('index.html', recommendations=recommendations)
 
 
 @app.route('/fibers')
