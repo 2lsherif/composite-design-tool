@@ -9,7 +9,7 @@ import io
 import psycopg2
 import matplotlib.pyplot as plt
 from config import Config
-from adjustText import adjust_text 
+from adjustText import adjust_text
 from scripts.recommend import recommend_materials
 
 app = Flask(__name__)
@@ -70,7 +70,7 @@ def plot():
     labels = [f"{rec['fiber']} + {rec['resin']}" for rec in data]
 
     fig, ax = plt.subplots(figsize=(10, 6))
-    scatter = ax.scatter(densities, strengths, c='blue')
+    ax.scatter(densities, strengths, c='blue')
 
     # Create all label texts
     texts = []
