@@ -63,7 +63,9 @@
                     >
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">Get Recommendations</button>
+            <button type="submit" class="btn btn-primary">
+                Get Recommendations
+            </button>
         </form>
 
         {% if recommendations %}
@@ -90,18 +92,16 @@
                     </tbody>
                 </table>
 
-                {% if plot_filename %}
-                    <h3>Visual Chart</h3>
-                    <img 
-                        src="{{ url_for('static', filename=plot_filename) }}" 
-                        alt="Recommendation Chart" 
-                        class="img-fluid mb-4"
-                    >
-                {% endif %}
-
+                <h3>Visual Chart</h3>
+                <img 
+                    src="{{ url_for('plot') }}" 
+                    alt="Recommendation Chart" 
+                    class="img-fluid mb-4"
+                >
             {% else %}
                 <div class="alert alert-warning">
-                    No matching material combinations found. Please adjust your criteria.
+                    No matching material combinations found. 
+                    Please adjust your criteria.
                 </div>
             {% endif %}
         {% endif %}
