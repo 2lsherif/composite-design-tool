@@ -7,7 +7,8 @@ from flask import (
 import psycopg2
 from config import Config
 from scripts.recommend import recommend_materials
-
+import os
+import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 
@@ -24,7 +25,7 @@ def get_db_connection():
 
 @app.route('/')
 def index():
-    return render_template('index.html', recommendations=None)
+    return render_template('index.html', recommendations=None, plot_filename=None)
 
 
 @app.route('/recommend', methods=['POST'])
@@ -34,7 +35,6 @@ def recommend():
         max_density = float(request.form.get('max_density') or 1.5)
         max_cost = float(request.form.get('max_cost') or 3.0)
     except ValueError:
-        # fallback if input is non-numeric
         min_strength = 100
         max_density = 1.5
         max_cost = 3.0
@@ -45,7 +45,28 @@ def recommend():
         max_cost=max_cost
     )
 
-    return render_template('index.html', recommendations=recommendations)
+    plot_filename = None
+
+    if recommendations:
+        fibers = [f"{rec['fiber']} + {rec['resin']}" for rec in recommendations]
+        strengths = [rec['combo_strength'] for rec in recommendations]
+
+        plt.figure(figsize=(10, 6))
+        plt.barh(fibers, strengths, color='skyblue')
+        plt.xlabel('Tensile Strength (MPa)')
+        plt.title('Recommended Fiber + Resin Combinations')
+        plt.tight_layout()
+
+        os.makedirs('static', exist_ok=True)
+        plot_filename = 'recommendations_plot.png'
+        plt.savefig(os.path.join('static', plot_filename))
+        plt.close()
+
+    return render_template(
+        'index.html',
+        recommendations=recommendations,
+        plot_filename=plot_filename
+    )
 
 
 @app.route('/fibers')
